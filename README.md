@@ -10,9 +10,11 @@ Checkout When Changes are Comitted on to Git
 * Login in to Jenkins
 * Click on Jenkins -> Create New Item -> Free style Job 
 * Click on Save
+![Alt text](https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial/blob/master/images/Create%20Job.png "Create Job")
 
 * Scroll down to Source Code Management
 * Select the checbox Git
+
 
 * Add the Repository URL
 
