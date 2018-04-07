@@ -1,30 +1,30 @@
 # Jenkins-Pipeline-Plugin-Tutorial
 
-Checkout Git Repository using Jenkins.
+## Checkout Git Repository using Jenkins.
 
-Scenario 1:
+### Scenario 1:
 Checkout When Changes are Comitted on to Git
 
-Steps:
+#### Steps:
 
-Login in to Jenkins
-Click on Jenkins -> Create New Item -> Free style Job 
-Click on Save
+* Login in to Jenkins
+* Click on Jenkins -> Create New Item -> Free style Job 
+* Click on Save
 
-Scroll down to Source Code Management
-Select the checbox Git
+* Scroll down to Source Code Management
+* Select the checbox Git
 
-Add the Repository URL
+* Add the Repository URL
 
-Click on Add Credentials
-Add Git Credentials
-
-
-Scroll Down to Build Triggers
-Add the cron the Job in the Schedule
+* Click on Add Credentials
+* Add Git Credentials
 
 
-Click on  Save
+* Scroll Down to Build Triggers
+* Add the cron the Job in the Schedule
+
+
+* Click on  Save
 
 
 
