@@ -1,0 +1,17 @@
+Started by an SCM change
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\download-repo-git
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git # timeout=10
+Fetching upstream changes from https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials Git Credentials
+ > git.exe fetch --tags --progress https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision c3f842b998a97a042de84c6df7936e66a71d9e28 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f c3f842b998a97a042de84c6df7936e66a71d9e28
+Commit message: "jenkins test"
+ > git.exe rev-list --no-walk 95fa3c4c4a18e9b15bb97b03f1261e29c8383cf2 # timeout=10
+Finished: SUCCESS

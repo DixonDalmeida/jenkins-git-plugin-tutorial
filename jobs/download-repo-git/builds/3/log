@@ -1,0 +1,17 @@
+Started by user [8mha:////4KbRi4ZTB3HhsxuKXs932Jyca7Z9U0OPFdzKn8I8c/M7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9lMyK/DwAPzChW8AAAAA=[0mdixon
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\download-repo-git
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git # timeout=10
+Fetching upstream changes from https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials Git Credentials
+ > git.exe fetch --tags --progress https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 95fa3c4c4a18e9b15bb97b03f1261e29c8383cf2 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 95fa3c4c4a18e9b15bb97b03f1261e29c8383cf2
+Commit message: "test"
+ > git.exe rev-list --no-walk 95fa3c4c4a18e9b15bb97b03f1261e29c8383cf2 # timeout=10
+Finished: SUCCESS

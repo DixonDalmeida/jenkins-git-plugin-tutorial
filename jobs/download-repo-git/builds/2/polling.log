@@ -1,0 +1,10 @@
+Started on 7 Apr, 2018 5:00:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 9fb02dfd0b0f0421c8b2f7e23df7da6b7e1ca34f (refs/remotes/origin/master)
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials Git Credentials
+ > git.exe ls-remote -h https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git # timeout=10
+Found 1 remote heads on https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git
+[poll] Latest remote head revision on refs/heads/master is: 95fa3c4c4a18e9b15bb97b03f1261e29c8383cf2
+Done. Took 12 sec
+Changes found

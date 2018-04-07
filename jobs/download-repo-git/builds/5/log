@@ -1,0 +1,24 @@
+Started by user [8mha:////4KbRi4ZTB3HhsxuKXs932Jyca7Z9U0OPFdzKn8I8c/M7AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9lMyK/DwAPzChW8AAAAA=[0mdixon
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\download-repo-git
+Wiping out workspace first.
+Cloning the remote Git repository
+Cloning repository https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\download-repo-git # timeout=10
+Fetching upstream changes from https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git
+ > git.exe --version # timeout=10
+using GIT_ASKPASS to set credentials Git Credentials
+ > git.exe fetch --tags --progress https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git # timeout=10
+Fetching upstream changes from https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git
+using GIT_ASKPASS to set credentials Git Credentials
+ > git.exe fetch --tags --progress https://github.com/starlord-dixon/Jenkins-Pipeline-Plugin-Tutorial.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision c3f842b998a97a042de84c6df7936e66a71d9e28 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f c3f842b998a97a042de84c6df7936e66a71d9e28
+Commit message: "jenkins test"
+ > git.exe rev-list --no-walk c3f842b998a97a042de84c6df7936e66a71d9e28 # timeout=10
+Finished: SUCCESS
