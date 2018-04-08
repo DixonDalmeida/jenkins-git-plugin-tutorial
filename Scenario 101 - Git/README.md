@@ -2,10 +2,18 @@
 
 ## Table of Contents:
 
+* Prerequisites
 * Objective 
 * Steps
 * Output
 
+### Prerequisites
+* Install [Git Plugin](https://wiki.jenkins.io/display/JENKINS/Git+Plugin)
+* Installation Steps:
+  * Go to Jenkins -> Manage Jenkins -> Manage Plugins 
+  * Select Git Plugin
+  * Select Install with Restart
+  
 ### Objective:
 Create a Jenkins job to Download Code from Git Repository.
 
