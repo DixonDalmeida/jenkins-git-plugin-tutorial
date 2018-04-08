@@ -1,11 +1,17 @@
 # Jenkins Tutorial
 
+## Table of Contents:
+* Scenario 101 - Git:
+
 ### Scenario 101 - Git:
-Create a Jenkins job to Download Code from Git Repository.
+# Continous Integration with Git and Jenkins
 
-Condition: Only when there is a change in Git Repository Code Base
+* Objective: Set Up Continous Integration with Jenkins and Git
+* Steps: Steps to create Continous Integration
+* Output: Build Logs
 
-[Scenario 101 - Git](https://github.com/starlord-dixon/Jenkins-Git-Plugin-Tutorial/blob/master/Scenario%20101%20-%20Git/README.md)
+
+[See More](https://github.com/starlord-dixon/Jenkins-Git-Plugin-Tutorial/blob/master/Scenario%20101%20-%20Git/README.md)
 
 
 
