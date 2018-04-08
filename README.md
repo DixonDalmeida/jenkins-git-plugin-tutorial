@@ -1,7 +1,11 @@
 # Jenkins Tutorial
 
 ## Table of Contents:
+* Prerequisites
 * Scenario 101 - Git:
+
+### Prerequisites:
+[Install Jenkins](https://jenkins.io/download/)
 
 ### Scenario 101 - Git:
 #### Continous Integration with Git and Jenkins
